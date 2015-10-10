@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+
+    <classes id="1" name="class one"/>
+    <courses id="1" name="course one"/>
+    <courses id="2" name="courses two"/>
+    <numbers id="1" prefix="1234567" suffix="890"/>
+    <numbers id="2" prefix="7654321" suffix="098"/>
+    <students id="1" name="stu one" number_id="1" class_id="1"/>
+    <students id="2" name="stu two" number_id="2" class_id="1"/>
+    <students_courses id="1" student_id="1" course_id="1"/>
+    <students_courses id="2" student_id="2" course_id="2"/>
+
+</dataset>

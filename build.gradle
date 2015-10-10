@@ -1,0 +1,24 @@
+group 'spring-hibernate-association-jack'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+version = "2.0"
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile("org.springframework:spring-orm:4.2.1.RELEASE")
+    compile("org.springframework:spring-context:4.2.1.RELEASE")
+    compile("org.hibernate:hibernate-core:5.0.1.Final")
+    runtime("com.h2database:h2:1.4.189")
+
+    testCompile("org.springframework:spring-test:4.2.1.RELEASE")
+    testCompile("com.github.springtestdbunit:spring-test-dbunit:1.2.1")
+    runtime("org.dbunit:dbunit:2.5.1")
+    testCompile("junit:junit:4.12")
+}
